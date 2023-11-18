@@ -1,5 +1,12 @@
 
 
+## [0.6.0](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.5.1...v0.6.0) (2023-11-18)
+
+
+### 🚀 Features
+
+* config react-router ([05d33b8](https://github.com/lenhathieu96/ss_restaurant_web/commit/05d33b8aa26b6e3c5243b558db7e94b7d4fdaa6a))
+
 ## [0.5.1](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.5.0...v0.5.1) (2023-11-18)
 
 
