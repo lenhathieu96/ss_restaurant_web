@@ -1,15 +1,15 @@
-import LoginPage from './pages/login'
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import LoginPage from "./pages/login";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <LoginPage />,
   },
-], {basename: ''});
+], {basename: '/ss_restaurant_web'});
 
 function App() {
   return (
