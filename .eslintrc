@@ -59,13 +59,6 @@
         "@typescript-eslint/no-this-alias": "off",
 
         /// Import rules
-        "import/no-unused-modules": [
-          "error",
-          {
-            "unusedExports": false,
-            "missingImport": true
-          }
-        ],
         "import/no-duplicates": ["error", { "considerQueryString": true }],
         "import/no-cycle": ["error"],
         "import/named": ["error"],
