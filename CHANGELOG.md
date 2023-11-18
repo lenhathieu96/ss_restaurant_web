@@ -1,5 +1,20 @@
 
 
+## [0.7.0](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.6.0...v0.7.0) (2023-11-18)
+
+
+### 🔥 Features
+
+* config build ([2e75a1f](https://github.com/lenhathieu96/ss_restaurant_web/commit/2e75a1f4c3e7731b53574d59db29126003ac1e04))
+* config build ([b12446c](https://github.com/lenhathieu96/ss_restaurant_web/commit/b12446c3d716b3a79d878cce8e5c356a50593b6c))
+* config build ([10978a4](https://github.com/lenhathieu96/ss_restaurant_web/commit/10978a453a35c5e9b61fca3b6a1e80d0dfff4dcb))
+* config build ([6ab3d4f](https://github.com/lenhathieu96/ss_restaurant_web/commit/6ab3d4ff4a15d4a05a23e292d56beca59904b1c1))
+* config build ([0dca0eb](https://github.com/lenhathieu96/ss_restaurant_web/commit/0dca0eb216e889366757af26635a484c1c542668))
+* config build by yarn ([e7cccd0](https://github.com/lenhathieu96/ss_restaurant_web/commit/e7cccd0d9a3d2444414c547c34fd5fc8c8393088))
+* config build on ci ([876d344](https://github.com/lenhathieu96/ss_restaurant_web/commit/876d3446a78bb7fe5381618a953dfbb659147624))
+* config ci ([55c0f0f](https://github.com/lenhathieu96/ss_restaurant_web/commit/55c0f0f3ae012395aee0a1e7dcd5aa3fc992aaf1))
+* config ci syntax ([c4a3e13](https://github.com/lenhathieu96/ss_restaurant_web/commit/c4a3e134d94c3f13de7b0f8b7193345acc247b4d))
+
 ## [0.6.0](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.5.1...v0.6.0) (2023-11-18)
 
 
