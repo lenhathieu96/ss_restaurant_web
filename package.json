@@ -82,6 +82,10 @@
             {
               "type:": "docs",
               "section": "📖 Documents"
+            },
+            {
+              "type": "build",
+              "section": "🛠️ Build"
             }
           ]
         }
