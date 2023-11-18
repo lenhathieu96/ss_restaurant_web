@@ -21,16 +21,12 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    if: contains( ${{github.event.head_commit.message}}, 'chore: release')
+    
     steps:
-      - name : Verify commit message
+      - name : show the message
         run: |
-          if [[ "${{ github.event.head_commit.message }}" =~ ^chore:\ release\ [0-9]+\.[0-9]+\.[0-9]+$ ]]; then
-            echo "🚀 Start to release new version ...."
-          else
-            echo "Commit message does not follow the release template. Skipping the workflow."
-            exit 78  # This will mark the workflow as a neutral status
-          fi
-
+          echo "🚀 Start to release new version ...."
       - name: Checkout
         uses: actions/checkout@v4
       
