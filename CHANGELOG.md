@@ -1,5 +1,14 @@
 
 
+## [0.5.0](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.4.0...v0.5.0) (2023-11-18)
+
+
+### 🚀 Features
+
+* config build on relase ([1da401c](https://github.com/lenhathieu96/ss_restaurant_web/commit/1da401c202a3edad9c4c9d4f3456de57f52b4c99))
+* config git ignore ([026d6a2](https://github.com/lenhathieu96/ss_restaurant_web/commit/026d6a20a7a9ec7a96bb81aa0a4698f6f48e2b96))
+* login page ([d11285e](https://github.com/lenhathieu96/ss_restaurant_web/commit/d11285e00f0f62595d43ad35d35334cde0264bc3))
+
 ## [0.4.0](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.3.2...v0.4.0) (2023-11-18)
 
 
