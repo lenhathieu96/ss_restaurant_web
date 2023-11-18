@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
+import tsconfigPaths from 'vite-tsconfig-paths'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  plugins: [react()],
-  base: '/ss_restaurant_web/'
+  plugins: [react(), tsconfigPaths()],
+  base: '/ss_restaurant_web/',
 })

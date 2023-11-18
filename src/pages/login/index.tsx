@@ -1,10 +1,11 @@
-import './styles.scss'
+import "./styles.scss";
 
-export default function LoginPage() {
+const LoginPage = () => {
   return (
     <div className="root-container">
       <p>this is the login page demo</p>
     </div>
-    
-  )
-}
+  );
+};
+
+export default LoginPage;
