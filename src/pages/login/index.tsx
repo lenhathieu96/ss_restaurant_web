@@ -6,7 +6,6 @@ const LoginPage = () => {
       <p>this is the login page demo 3</p>
       <p>this is the login page demo 3</p>
       <p>this is the login page demo 3</p>
-      <p>this is the login page demo 3</p>
     </div>
   );
 };
