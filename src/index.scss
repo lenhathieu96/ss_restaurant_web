@@ -1,0 +1,55 @@
+$green: #7FF0F7;
+$green-01: #7FF0F7;
+$green-02: #00E1F0;
+$green-03: #02CFE0;
+
+$blue-01: #0065FF;
+$blue-02: #003CBF;
+$blue-03: #0F3D91;
+
+$yellow-01: #FFD211;
+$yellow-02: #FEAA48;
+
+$pastel-01: #FFECE9;
+$pastel-02: #C8FBFF;
+$pastel-03: #EBF5EF;
+$pastel-04: #F5E3FB;
+$pastel-05: #F2F6FE;
+$pastel-06: #E7DDFE;
+$pastel-07: #FFFADD;
+$pastel-08: #F7F9FA;
+
+$neutral-01: #112950;
+$neutral-02: #5E6F88;
+$neutral-03: #8E9AAB;
+$neutral-04: #B2BAC6;
+$neutral-05: #E5E5E5;
+$neutral-06: #F2F4F5;
+$neutral-07: #FFFFFF;
+
+$background-01: #0F62F9;
+$background-02: #9EBAED;
+
+:root {
+  /* font typography */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+
+  color-scheme: light dark;
+
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
