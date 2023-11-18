@@ -69,9 +69,6 @@
       "tagName": "v${version}",
       "requireBranch": "main"
     },
-    "hooks": {
-      "before:init": ["rm -f ./.git/index.lock", "git add .", "git commit -m 'chore: clean working dir'"]
-    },
     "plugins": {
       "@release-it/conventional-changelog": {
         "infile": "CHANGELOG.md",

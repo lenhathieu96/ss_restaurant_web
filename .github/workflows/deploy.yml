@@ -59,6 +59,14 @@ jobs:
         uses: actions/deploy-pages@v2
 
       - name: Create new release
-        run: yarn release-it --ci
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+
+          rm -f ./.git/index.lock
+          git add .
+          git commit -m 'chore: clean working dir'
+
+          yarn release-it --ci
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
