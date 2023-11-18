@@ -1,5 +1,12 @@
 
 
+## 0.9.3 (2023-11-18)
+
+
+### 🛠️ Build
+
+* config release by ci ([b1a1bf0](https://github.com/lenhathieu96/ss_restaurant_web/commit/b1a1bf01fb423f6250eb157bebc7cfec89da7b33))
+
 ## [0.9.2](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.9.1...v0.9.2) (2023-11-18)
 
 
