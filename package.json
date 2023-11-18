@@ -65,9 +65,7 @@
       "requireBranch": "main"
     },
     "hooks": {
-      "afer:bump": [
-        "npm run build"
-      ],
+      "after:bump": [ "npm run build" ],
       "after:release": [
         "gh-pages -d dist -b deploy"
       ]
