@@ -70,7 +70,7 @@
       "requireBranch": "main"
     },
     "hooks": {
-      "before:init": "git add ."
+      "before:init": "git add . & git commit -m 'clean working dir'"
     },
     "plugins": {
       "@release-it/conventional-changelog": {
