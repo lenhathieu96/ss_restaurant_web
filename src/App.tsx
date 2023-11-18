@@ -9,7 +9,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <LoginPage />,
   },
-], {basename: 'ss_restaurant_web'});
+], {basename: ''});
 
 function App() {
   return (
