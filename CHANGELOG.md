@@ -1,5 +1,12 @@
 
 
+## [0.8.0](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.7.0...v0.8.0) (2023-11-18)
+
+
+### 🔥 Features
+
+* update release-it rule ([259520b](https://github.com/lenhathieu96/ss_restaurant_web/commit/259520b70baee2290ee1ac0cb2d695692b0e9c2b))
+
 ## [0.7.0](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.6.0...v0.7.0) (2023-11-18)
 
 
