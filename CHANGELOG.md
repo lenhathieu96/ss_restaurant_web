@@ -1,5 +1,12 @@
 
 
+## [0.5.1](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.5.0...v0.5.1) (2023-11-18)
+
+
+### 🐛 Bug Fixes
+
+*  blank page on production ([7da4bd5](https://github.com/lenhathieu96/ss_restaurant_web/commit/7da4bd5be5ee6a02924c0e92b6f1aa119682517a))
+
 ## [0.5.0](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.4.0...v0.5.0) (2023-11-18)
 
 
