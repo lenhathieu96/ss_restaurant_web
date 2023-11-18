@@ -1,7 +1,7 @@
 {
   "name": "ssr_restaurant_web",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "homepage": "https://lenhathieu96.github.io/ssr_restaurant_web",
   "scripts": {
@@ -64,9 +64,13 @@
       "tagName": "v${version}",
       "requireBranch": "main"
     },
-    "hooks":{
-      "afer:bump": ["npm run build"],
-      "after:release": ["gh-pages -d build"]
+    "hooks": {
+      "afer:bump": [
+        "npm run build"
+      ],
+      "after:release": [
+        "gh-pages -d build"
+      ]
     },
     "plugins": {
       "@release-it/conventional-changelog": {
@@ -90,7 +94,7 @@
         }
       }
     },
-    "github":{
+    "github": {
       "relase": true
     },
     "npm": {
