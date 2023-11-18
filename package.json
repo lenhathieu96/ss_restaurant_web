@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "config": "rm -rf node_modules & rm -rf yarn.lock && yarn cache clean && yarn",
     "start": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -41,16 +42,12 @@
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0"
   },
-
   "resolutions": {
     "@types/react": "18.2.15"
   },
-
-  "packageManager": "yarn@3.6.1",
   "engines": {
     "node": ">= 18.0.0"
   },
-  
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
@@ -62,11 +59,11 @@
       "tagName": "v${version}",
       "requireBranch": "main"
     },
-
     "plugins": {
       "@release-it/conventional-changelog": {
         "preset": "angular"
       }
     }
-  }
+  },
+  "packageManager": "yarn@4.0.2"
 }
