@@ -1,5 +1,12 @@
 
 
+## [0.3.0](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.2.0...v0.3.0) (2023-11-18)
+
+
+### Features
+
+* config deploy ([1c0e630](https://github.com/lenhathieu96/ss_restaurant_web/commit/1c0e630a114bceef94f3565c54c71603a1c1a326))
+
 ## [0.2.0](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.1.0...v0.2.0) (2023-11-18)
 
 
