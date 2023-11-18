@@ -1,5 +1,7 @@
 
 
+## [0.3.2](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.3.1...v0.3.2) (2023-11-18)
+
 ## [0.3.1](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.3.0...v0.3.1) (2023-11-18)
 
 
