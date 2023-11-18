@@ -1,5 +1,12 @@
 
 
+## [0.9.2](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.9.1...v0.9.2) (2023-11-18)
+
+
+### 🛠️ Build
+
+* config ci ([91c59ef](https://github.com/lenhathieu96/ss_restaurant_web/commit/91c59ef887bee035ec483a9f09e94915d04fa463))
+
 ## [0.9.1](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.9.0...v0.9.1) (2023-11-18)
 
 
