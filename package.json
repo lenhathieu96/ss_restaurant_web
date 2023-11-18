@@ -65,15 +65,6 @@
       "tagName": "v${version}",
       "requireBranch": "main"
     },
-    "hooks": {
-      "after:bump": [
-        "npm run build",
-        "git add ."
-      ],
-      "after:release": [
-        "gh-pages -d dist -b deploy"
-      ]
-    },
     "plugins": {
       "@release-it/conventional-changelog": {
         "infile": "CHANGELOG.md",
