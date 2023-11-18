@@ -70,7 +70,7 @@
       "requireBranch": "main"
     },
     "hooks": {
-      "before:init": "git add . & git commit -m 'chore: clean working dir'"
+      "before:init": ["rm -f ./.git/index.lock", "git add .", "git commit -m 'chore: clean working dir'"]
     },
     "plugins": {
       "@release-it/conventional-changelog": {
