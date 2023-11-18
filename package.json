@@ -80,15 +80,15 @@
           "types": [
             {
               "type": "feat",
-              "section": "Features"
+              "section": "🚀 Features"
             },
             {
               "type": "fix",
-              "section": "Bug Fixes"
+              "section": "🐛 Bug Fixes"
             },
             {
               "type:": "doc",
-              "section": "Documents"
+              "section": "📖 Documents"
             }
           ]
         }
