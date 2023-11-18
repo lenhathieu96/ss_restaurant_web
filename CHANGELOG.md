@@ -1,5 +1,17 @@
 
 
+## [0.9.0](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.8.0...v0.9.0) (2023-11-18)
+
+
+### 🔥 Features
+
+* config package json ([61fb690](https://github.com/lenhathieu96/ss_restaurant_web/commit/61fb690a0be63f662f29baa233114bf58cdc8678))
+
+
+### 🛠️ Build
+
+* config ci rule ([503b9c0](https://github.com/lenhathieu96/ss_restaurant_web/commit/503b9c037814db4ee2911cc0a02494f403fe4f0d))
+
 ## [0.8.0](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.7.0...v0.8.0) (2023-11-18)
 
 
