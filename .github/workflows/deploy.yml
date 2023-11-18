@@ -14,6 +14,7 @@ permissions:
 concurrency:
   group: 'pages'
   cancel-in-progress: true
+
 jobs:
   # Single deploy job since we're just deploying
   deploy:
@@ -21,19 +22,14 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    if: "${{contains(github.event.head_commit.message, 'chore: release')}}" 
-    
+    if: "${{contains(github.event.head_commit.message, 'chore: release')}}"     
     steps:
-      - name : show the message
-        run: |
-          echo "🚀 Start to release new version ...."
-  
       - name: Checkout
         uses: actions/checkout@v4
       
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
+        run: echo "{dir}=$(yarn cache dir)" >> $GITHUB_OUTPUT
 
       - name: Restore node_modules from cache
         uses: actions/cache@v3
