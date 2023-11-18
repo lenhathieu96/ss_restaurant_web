@@ -1,5 +1,12 @@
 
 
+## [0.3.1](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.3.0...v0.3.1) (2023-11-18)
+
+
+### Bug Fixes
+
+* fix typo ([5d613a5](https://github.com/lenhathieu96/ss_restaurant_web/commit/5d613a5b100b3a5e086e64f16e232dfd6489f66f))
+
 ## [0.3.0](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.2.0...v0.3.0) (2023-11-18)
 
 

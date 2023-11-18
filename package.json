@@ -1,7 +1,7 @@
 {
   "name": "ssr_restaurant_web",
   "private": true,
-  "version": "0.3.0",
+  "version": "0.3.1",
   "type": "module",
   "homepage": "https://lenhathieu96.github.io/ssr_restaurant_web",
   "scripts": {
@@ -65,7 +65,9 @@
       "requireBranch": "main"
     },
     "hooks": {
-      "after:bump": [ "npm run build" ],
+      "after:bump": [
+        "npm run build"
+      ],
       "after:release": [
         "gh-pages -d dist -b deploy"
       ]
