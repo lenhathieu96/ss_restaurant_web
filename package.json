@@ -69,6 +69,9 @@
       "tagName": "v${version}",
       "requireBranch": "main"
     },
+    "hooks": {
+      "before:init": "git add ."
+    },
     "plugins": {
       "@release-it/conventional-changelog": {
         "infile": "CHANGELOG.md",
