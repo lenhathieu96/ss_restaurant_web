@@ -1,5 +1,12 @@
 
 
+## [0.4.0](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.3.2...v0.4.0) (2023-11-18)
+
+
+### 🚀 Features
+
+* beautiy release changelog ([6e23bfc](https://github.com/lenhathieu96/ss_restaurant_web/commit/6e23bfcc4dab28bc9f73090cfdfcd8e6051eec68))
+
 ## [0.3.2](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.3.1...v0.3.2) (2023-11-18)
 
 ## [0.3.1](https://github.com/lenhathieu96/ss_restaurant_web/compare/v0.3.0...v0.3.1) (2023-11-18)
