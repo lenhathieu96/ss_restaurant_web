@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "config": "rm -rf node_modules & rm -rf yarn.lock && yarn cache clean && yarn",
+    "reset": "rm -rf node_modules & rm -rf yarn.lock && yarn cache clean && yarn",
     "start": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
